@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mocks">
+      <UniqueIdentifier>{70bcd90f-5622-4e9b-b64f-290c6e82f6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{00f3da0b-efce-4ba7-b6ab-e63e5892c5e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_main.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triple_temperature_uno\message_format.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triple_temperature_uno\message_reader.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triple_temperature_uno\sensor_mcp_9808.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\triple_temperature_uno\temperature_engine.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="mocks\Arduino.cpp">
+      <Filter>Mocks</Filter>
+    </ClCompile>
+    <ClCompile Include="mocks\Wire.cpp">
+      <Filter>Mocks</Filter>
+    </ClCompile>
+    <ClCompile Include="test_message_format.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_temperature_engine.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_message_reader.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_test_utils.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="test_sensor_mcp_9808.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="mocks\HardwareSerial.cpp">
+      <Filter>Mocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mocks\Arduino.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="mocks\Wire.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triple_temperature_uno\message_format.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triple_temperature_uno\message_reader.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triple_temperature_uno\sensor_mcp_9808.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triple_temperature_uno\temperature_engine.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\triple_temperature_uno\temperature_types.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="test_utils.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="fakeit.hpp">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="mocks\HardwareSerial.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
